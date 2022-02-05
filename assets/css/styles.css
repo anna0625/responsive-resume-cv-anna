@@ -466,7 +466,7 @@ img {
 
 .education__stuies,
 .experience__company,
-.accomplishments__comany {
+.accomplishments__company {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
