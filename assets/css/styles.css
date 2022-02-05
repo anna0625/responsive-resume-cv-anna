@@ -143,31 +143,36 @@ body.scale-cv {
 
 .scale-cv .education__container,
 .scale-cv .experience__container,
+.scale-cv .accomplishments__container,
 .scale-cv .certificate__container {
   gap: 1rem;
 }
 
 .scale-cv .education__time,
-.scale-cv .experience__time {
+.scale-cv .experience__time,
+.scale-cv .accomplishments__time {
   padding-right: .5rem;
 }
 
 .scale-cv .education__rounder,
-.scale-cv .experience__rounder {
+.scale-cv .experience__rounder,
+.scale-cv .accomplishments__rounder {
   width: 11px;
   height: 11px;
   margin-top: .22rem;
 }
 
 .scale-cv .education__line,
-.scale-cv .experience__line {
+.scale-cv .experience__line,
+.scale-cv .accomplishments__line {
   width: 1px;
   height: 110%;
   transform: translate(5px, 0);
 }
 
 .scale-cv .education__data,
-.scale-cv .experience__data {
+.scale-cv .experience__data,
+.scale-cv .accomplishments__data {
   gap: .25rem;
 }
 
@@ -389,14 +394,16 @@ img {
   gap: 1rem;
 }
 
-.social__link {
+.social__link,
+.accomplishments__link {
   display: inline-flex;
   align-items: center;
   font-size: var(--small-font-size);
   color: var(--text-color);
 }
 
-.social__link:hover {
+.social__link:hover,
+.accomplishments__link:hover {
   color: var(--title-color);
 }
 
@@ -412,17 +419,20 @@ img {
 
 /*========== EDUCATION AND EXPERIENCE ==========*/
 .education__content,
-.experience__content {
+.experience__content,
+.accomplishments__content {
   display: flex;
 }
 
 .education__time,
-.experience__time {
+.experience__time,
+.accomplishments__time {
   padding-right: 1rem;
 }
 
 .education__rounder,
-.experience__rounder {
+.experience__rounder,
+.accomplishments__rounder {
   position: relative;
   display: block;
   width: 16px;
@@ -433,7 +443,8 @@ img {
 }
 
 .education__line,
-.experience__line {
+.experience__line,
+.accomplishments__line {
   display: block;
   width: 2px;
   height: 110%;
@@ -442,17 +453,20 @@ img {
 }
 
 .education__data,
-.experience__data {
+.experience__data,
+.accomplishments__data {
   gap: .5rem;
 }
 
 .education__title,
-.experience__title {
+.experience__title,
+.accomplishments__title {
   font-size: var(--h3-font-size);
 }
 
 .education__stuies,
-.experience__company {
+.experience__company,
+.accomplishments__comany {
   font-size: var(--small-font-size);
   color: var(--title-color);
 }
@@ -513,7 +527,7 @@ img {
 
 /*========== INTERESTS ==========*/
 .interests__container {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   margin-top: var(--mb-2);
 }
 
