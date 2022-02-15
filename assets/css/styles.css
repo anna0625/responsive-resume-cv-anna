@@ -642,3 +642,7 @@ img {
   }
 }
 
+/* My ADDING */
+.accomplishments__description a {
+  text-decoration: underline;
+}
