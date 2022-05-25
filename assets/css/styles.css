@@ -494,8 +494,8 @@ img {
 .skills__circle,
 .languages__circle {
   display: inline-block;
-  width: 5px;
-  height: 5px;
+  width: 10px;
+  height: 10px;
   background-color: var(--text-color);
   border-radius: 50%;
   margin: .75rem;
