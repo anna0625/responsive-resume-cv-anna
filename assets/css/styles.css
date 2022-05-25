@@ -494,11 +494,11 @@ img {
 .skills__circle,
 .languages__circle {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 5px;
+  height: 5px;
   background-color: var(--text-color);
   border-radius: 50%;
-  margin: .75rem;
+  margin: .35rem;
 }
 
 /*========== CERTIFICATES ==========*/
